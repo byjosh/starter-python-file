@@ -1,5 +1,6 @@
 # starter-python-file
-Folks starting out with Python might benefit from a file with some more advanced features in it. The file:
+Folks starting out with Python might benefit from a file with some more advanced features in it. 
+The file (called example_script.py):
 1. gives some explanation of `#!/usr/bin/env python3`
 2. notes source and license and some implications of that
 3. imports [logging libary](https://docs.python.org/3.11/library/logging.html) while configuring it to be silent - then explains how to set it to other levels
