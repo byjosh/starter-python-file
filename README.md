@@ -1,5 +1,16 @@
 # starter-python-file
 Folks starting out with Python might benefit from a file with some more advanced features in it. 
+
+## Note:
+**You do not have to understand every feature of the file to use it - just find a place to insert your code**.
+
+It is designed to be played about with, broken and then downloaded again if necessary for fresh experiments.
+
+**The main thing to play about with is change where it says `logging.FATAL` to `logging.WARNING` or `logging.INFO` or `logging.DEBUG` etc. and seeing what new info is shown when you run the file.**
+
+By making that experiment you can see about adding logging to your own functions to understand what is happening in them - and whether they are being executed as you want them to be.
+
+## Main points in file
 The file (called example_script.py):
 1. gives some explanation of `#!/usr/bin/env python3`
 2. notes source and license and some implications of that
