@@ -31,6 +31,10 @@ def hello():
     """Prints hello world"""
     print("Hello world")
     for i in "123":
+        # "The number is {} and the name is {}".format(9,"Ashoka") is using the string formatting method and outputs:
+        # 'The number is 9 and the name is Ashoka'
+        # this string formatting method is used to make logging message that include value of variables i and n in these loops
+        # following line uses the line continuation character \ to wrap long lines while they still function as one line of code
         logging.debug('If we have set level to logging.DEBUG above we will see number {} logged - which is n \n \
                       and see all the messages for the less detailed levels of logging (info, warning, error etc.)'.format(i))
         for n in {"a": [1, 2], "b": [3, 4]}:
