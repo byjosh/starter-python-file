@@ -15,12 +15,14 @@
 
 import logging
 
-# if filename='example.log' was included before encoding='utf-8' on next line of code
-# then the log would go to a file
+# if filename='example.log' was included before level=logging.FATAL on next line of code
+# then the log would go to a file 
+# one could also (from Python version 3.9) specify encoding='utf-8'  if logging to a file 
+# so that non-English characters would log better (as utf-8 can handle non European languages in a way ASCII cannot)
 # The logging.level has various levels - FATAL is for very serious stuff
 # so set to a level so serious it will not show anything unless you use logging.fatal("the fatal message")
 # instead of logging.FATAL below you could try logging.DEBUG or logging.INFO etc.
-logging.basicConfig(encoding='utf-8', level=logging.FATAL)
+logging.basicConfig(level=logging.FATAL)
 
 #================================================
 # put your code below this
