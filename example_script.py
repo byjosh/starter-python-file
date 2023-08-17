@@ -37,11 +37,11 @@ def hello():
         # 'The number is 9 and the name is Ashoka'
         # this string formatting method is used to make logging message that include value of variables i and n in these loops
         # following line uses the line continuation character \ to wrap long lines while they still function as one line of code
-        logging.debug('If we have set level to logging.DEBUG above we will see number {} logged - which is n \n \
-                      and see all the messages for the less detailed levels of logging (info, warning, error etc.)'.format(i))
+        logging.debug(f'If we have set level to logging.DEBUG above we will see number {i} logged - which is i \n \
+                      and see all the messages for the less detailed levels of logging (info, warning, error etc.)')
         for n in {"a": [1, 2], "b": [3, 4]}:
-            logging.info('Info is slightly less detailed than debug \n \
-            perhaps for showing progress like:- outer loop value is {} and n is {}'.format(i, n))
+            logging.info(f'Info is slightly less detailed than debug \n \
+            perhaps for showing progress like:- outer loop value is {i} and n is {n}')
 
     logging.warning('A warning is what you should be warned about - so even less detailed level than info')
     logging.error('errors are signs something is really wrong - not just warning of potential issue - so again less detailed')
